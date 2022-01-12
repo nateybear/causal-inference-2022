@@ -6,7 +6,7 @@ if (!("librarian" %in% rownames(utils::installed.packages()))) {
 # put all of the packages that you import here
 librarian::shelf( 
   cran_repo = "https://cran.microsoft.com/", # Dallas, TX
-  quiet = TRUE,
+  ask = FALSE,
   stats, # https://stackoverflow.com/questions/26935095/r-dplyr-filter-not-masking-base-filter#answer-26935536
   here,
   kableExtra,
