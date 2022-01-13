@@ -1,5 +1,5 @@
 # Builds the cleaned NLSY97 dataset on crime for analysis
-# Students: read the colwise and rowwise vignettes carefully to understand this code.
+# Read the colwise and rowwise vignettes carefully to understand this code.
 # vignette("colwise")
 # vignette("rowwise")
 
