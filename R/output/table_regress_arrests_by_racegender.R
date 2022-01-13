@@ -1,11 +1,11 @@
 # Builds a LaTeX table of regression output using the stargazer package.
-# Here we supply our own standard errors b/c we want to 
-# use heteroskedasticity-robust errors.
 
 model <- 
   read_csv(here("data/NLSY97_clean.csv")) %>%
   lm(total_arrests ~ race + gender, data = .)
 
+# Here we supply our own standard errors b/c we want to 
+# use heteroskedasticity-robust errors.
 se <- model %>% vcovHC %>% diag %>% sqrt
 
 # this is unnecessary, but tidies the coefficient names,
