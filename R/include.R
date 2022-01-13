@@ -23,7 +23,8 @@ librarian::shelf(
   lmtest,
   gganimate,
   gapminder,
-  stargazer
+  stargazer,
+  snakecase
 )
 
 # tell here where we are so we can use it elsewhere
