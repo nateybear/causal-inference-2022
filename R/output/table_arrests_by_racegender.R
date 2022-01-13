@@ -20,7 +20,8 @@ read_csv(here("data/NLSY97_clean.csv")) %>%
   kbl(
     caption = "Mean arrests in 2002 by Race and Gender",
     booktabs = TRUE,
-    format = "latex"
+    format = "latex",
+    label = "tab:summarystats"
   ) %>%
   kable_styling(latex_options = c("striped", "HOLD_position")) %>%
   

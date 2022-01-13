@@ -1,0 +1,74 @@
+\documentclass{article}
+
+% these packages let you do math
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% we need these packages for fancy R tables
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+% these packages play with the spacing/margins of the document. Uncomment the commands on lines 16 and 17 to see what they do.
+\usepackage{a4wide}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{parskip}
+%\doublespacing
+%\geometry{margin=1.5in}
+
+% this package helps us with including images. Setting the graphics path makes it easier to refer to things in the includegraphics command.
+\usepackage{graphicx}
+\graphicspath{ {../figures/} }
+
+% set the author, title, and date of the document. \maketitle adds it to the document.
+\author{Nathan Hattersley}
+\title{My Paper on NLSY97 Data}
+\date{Sping 2022}
+
+\begin{document}
+\maketitle
+
+\section{The First Section}
+
+This is where I talk about basic \LaTeX. Using the \texttt{parskip} package, I can create a new paragraph by using line breaks, which I will do now.
+
+I can also make cool equations inline by using parentheses{\textemdash}like this: \(x + 2\){\textemdash}or by using single dollar signs{\textemdash}like this: $x+2$. Parentheses are preferred because the left and right delimiter are distinct.
+
+I can make cool equations in a block style by using the \texttt{equation} environment like so:
+\begin{equation*}
+    y = x\beta + \varepsilon
+\end{equation*}
+or by using double dollar signs:
+$$
+    y = x\beta + \varepsilon
+$$
+
+Again, the \texttt{equation} environment is preferred because the begin and end delimiters are different.
+
+I can also add a bibliography, but this is beyond the scope of our discussion right now. Overleaf has plenty of resources for this on their website.
+
+\newpage
+
+\section{The Second Section}
+
+Wherein we do tables and graphs. To include the graph we made in ggplot, we create the \texttt{figure} environment. The `H' option tells \LaTeX to `hold' the position of the figure instead of positioning it somewhere else. I use the \texttt{caption} command to add a caption{\textemdash}although I also put a title on the plot in ggplot so you would typically choose one or the other. I use the \texttt{label} command after the caption to add a label. Then in my paper I can use the \texttt{ref} command and \LaTeX\ knows I am referring to Figure \ref{fig:graph}.
+
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=.85\textwidth]{arrests_by_racegender}
+    \end{center}
+    \caption{Mean Number of Arrests in 2002 by Race and Gender (this is the \LaTeX\ caption, not the ggplot title)}
+    \label{fig:graph}
+\end{figure}
+
+
+Tables are somewhat easier, since \texttt{kableExtra} and \texttt{stargazer} generate \LaTeX\ code that is ready to just ``copy-paste'' into our document. The \texttt{label} argument in the R code is the label that the table will have in the tex output, if you want to \texttt{ref} it.
+
+\input{../tables/arrests_by_racegender.tex}
+
+\input{../tables/regress_arrests_by_racegender.tex}
+
+\end{document}

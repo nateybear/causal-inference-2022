@@ -8,9 +8,17 @@ model <-
 
 se <- model %>% vcovHC %>% diag %>% sqrt
 
+# this is unnecessary, but tidies the coefficient names,
+# so that you have "Male" instead of "genderMale" in the table.
+# Note that stargazer treats the intercept differently so we drop it (the [-1] part)
+covariate.labels <- names(coef(model))[-1] %>% str_replace("(^race)|(^gender)", "")
+
 stargazer(
   model,
-  se = se,
+  se = list(se),
+  covariate.labels = covariate.labels,
+  dep.var.labels = "Arrests in 2002",
   out = here("tables/regress_arrests_by_racegender.tex"),
-  title = "Regression Output of Total Arrests by Race and Gender"
+  title = "Regression Output. Omitted category is Black Females.",
+  label = "tab:regression"
 )
