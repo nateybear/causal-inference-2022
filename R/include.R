@@ -1,6 +1,6 @@
 # installs the librarian package if you don't have it
 if (!("librarian" %in% rownames(utils::installed.packages()))) {
-  install.packages("librarian")
+  utils::install.packages("librarian")
 }
 
 # put all of the packages that you import here
