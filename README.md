@@ -1,6 +1,6 @@
 # R Hidden Curriculum Assignment
 
-Your assignment is to replicate this GitHub repository and produce a report that describes patterns in INCARCERATION STATUS by race and gender in the year 2002, using NLSY97 publicly available data. To do this, you will need to create a data extract at the [NLSY Investigator](https://www.nlsinfo.org/investigator/pages/search) website that pulls the variables of interest. Here is a screenshot to help you out:
+Your assignment is to replicate this GitHub repository and produce a report that describes patterns in INCARCERATION STATUS by race and gender in the year 2002, using NLSY97 publicly available data. To do this, you will need to create a data extract at the [NLS Investigator](https://www.nlsinfo.org/investigator/pages/search) website that pulls the variables of interest. Here is a screenshot to help you out:
 
 ![](https://raw.githubusercontent.com/nateybear/causal-inference-2022/main/writing/rdemo_assets/NLSY97%20Investigator.png)
 
