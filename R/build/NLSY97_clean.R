@@ -19,6 +19,7 @@ read_csv(here("data/NLSY97.csv")) %>%
   # sum across the months using rowwise
   rowwise() %>%
   mutate(total_arrests = sum(c_across(starts_with("E")), na.rm = TRUE)) %>%
+  ungroup() %>%
 
   # recode the gender variable
   mutate(gender = if_else(R0536300 == 1, "Male", "Female")) %>%
