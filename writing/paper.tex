@@ -18,7 +18,7 @@
 %\doublespacing
 %\geometry{margin=1.5in}
 
-% this package helps us with including images. Setting the graphics path makes it easier to refer to things in the includegraphics command.
+% this package helps us with including images. Setting the graphics path makes it easier to refer to things in the \includegraphics command.
 \usepackage{graphicx}
 \graphicspath{ {../figures/} }
 
@@ -53,19 +53,19 @@ I can also add a bibliography, but this is beyond the scope of our discussion ri
 
 \section{The Second Section}
 
-Wherein we do tables and graphs. To include the graph we made in ggplot, we create the \texttt{figure} environment. The `H' option tells \LaTeX to `hold' the position of the figure instead of positioning it somewhere else. I use the \texttt{caption} command to add a caption{\textemdash}although I also put a title on the plot in ggplot so you would typically choose one or the other. I use the \texttt{label} command after the caption to add a label. Then in my paper I can use the \texttt{ref} command and \LaTeX\ knows I am referring to Figure \ref{fig:graph}.
+Wherein we do tables and graphs. To include the graph we made in ggplot, we create the \texttt{figure} environment. The `H' option tells LaTeX to `hold' the position of the figure instead of positioning it somewhere else. I use the \texttt{caption} command to add a caption{\textemdash}although I also put a title on the plot in ggplot so you would typically choose one or the other. I use the \texttt{label} command after the caption to add a label. Then in my paper I can use the \texttt{ref} command and LaTeX knows I am referring to Figure \ref{fig:graph}.
 
 
 \begin{figure}[H]
     \begin{center}
         \includegraphics[width=.85\textwidth]{arrests_by_racegender}
     \end{center}
-    \caption{Mean Number of Arrests in 2002 by Race and Gender (this is the \LaTeX\ caption, not the ggplot title)}
+    \caption{Mean Number of Arrests in 2002 by Race and Gender (this is the LaTeX caption, not the ggplot title)}
     \label{fig:graph}
 \end{figure}
 
 
-Tables are somewhat easier, since \texttt{kableExtra} and \texttt{stargazer} generate \LaTeX\ code that is ready to just ``copy-paste'' into our document. The \texttt{label} argument in the R code is the label that the table will have in the tex output, if you want to \texttt{ref} it.
+Tables are somewhat easier, since \texttt{kableExtra} and \texttt{stargazer} generate LaTeX code that is ready to just ``copy-paste'' into our document. The \texttt{label} argument in the R code is the label that the table will have in the tex output, if you want to \texttt{ref} it.
 
 \input{../tables/arrests_by_racegender.tex}
 
