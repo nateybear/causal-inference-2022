@@ -10,6 +10,7 @@ output:
 ```{r setup, include=FALSE}
 library(here)
 here::i_am("writing/rdemo_3.Rmd")
+source(here("R/include.R"))
 knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
 ```
 
@@ -59,15 +60,15 @@ datetime1 <- mdy_hm("April 4, 2012 5:33 pm") # month, day, year, hour, minute
 ```
 - Easily manipulate parts of dates and do date math
 ```{r}
-month(date1) <- 8
-last_week <- today() - weeks(1)
+month(date1) <- 8 # change the date I just made
+last_week <- today() - weeks(1) # subtract a week from a date
+
+# extract events that happened in the last week
+the_past_week <- last_week %--% today()
+data %<>% filter(date %within% the_past_week)
 
 # group a date column into 10-day intervals
 data %<>% mutate(date = floor_date(date, "10 days"))
-
-# extract events that happened in the last week
-time_range <- last_week %--% today()
-data %<>% filter(date %within% time_range)
 ```
 
 ## ![](rdemo_assets/haven.png) `haven` | for all the S***a users out there
@@ -82,11 +83,12 @@ data %<>% filter(date %within% time_range)
 - [Docs](https://readxl.tidyverse.org/)
   - Not much to say on this, it reads Excel using the `read_xlsx` function
 
-## ![](rdemo_assets/forcats.png) `forcats` | apparently it makes factors easier
+## ![](rdemo_assets/forcats.png) `forcats` | it's an anagram of "factors"
 
-- [Docs](https://forcats.tidyverse.org/) and [cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/factors.pdf)
+- Tries to provide more consistent factor handling
+- [Docs](https://forcats.tidyverse.org/) and [cheatsheet](https://github.com/rstudio/cheatsheets/raw/main/factors.pdf)
 - Factors are still a personal pain point in using R
-- This library is supposed to make it easier, haven't used it much and have still struggled with factors when I have used it
+  - It's been <b>a bit</b> easier since I started using this library
 
 
 # `purrr` ![](rdemo_assets/purrr.png)
@@ -102,10 +104,6 @@ data %<>% filter(date %within% time_range)
 ## Lambdas | interesting (ab)use of R formulas {.smaller}
 
 - R formulas are unevaluated, just one aspect of the language's non-standard evaluation
-  - The variables `outcome`, `treatment`, `control`, and `instrument` are not defined below, but we can still create this formula object:
-```{r, eval = T}
-outcome ~ treatment + control | instrument
-```
 - Someone smart realized that formulas can be used as a shorthand for functions
   - `rlang`'s [`as_function`](https://rlang.r-lib.org/reference/as_function.html) converts a one-sided formula to function
 ```{r, eval = TRUE}
@@ -131,12 +129,11 @@ data <- tibble(flavor = c("Chocolate", "Vanilla"), topping = c("almonds", "straw
 data %>% mutate(
   description = map2_chr(flavor, topping, ~paste(.x, "ice cream with", .y, "on top"))
 )
+# Just an example... glue("{flavor} ice cream with {topping} on top") is preferred.
 ```
 ## {.smaller}
 
-- N.B. `map2_chr` is not strictly necessary here, as you could have written:
-  - `description = glue("{flavor} ice cream with {topping} on top")` (more on `glue` later)
-  - using `map_*` may seem superfluous in a vectorized language, but it is necessary in situations where your functions are not properly vectorized!
+- Using `map_*` may seem superfluous in a vectorized language, but it is necessary in situations where your functions are not properly vectorized!
   
 -Here is how Advanced R (section 9.4) organizes the map family: by number of arguments (rows), and by return type (columns)
 
@@ -193,3 +190,9 @@ data %<>% mutate(y = x^2)
 data %$% mean(y)
 ```
 - See [function reference](https://magrittr.tidyverse.org/reference/index.html) for documentation on all the pipes
+
+## Thanks!
+
+- Hopefully these help you get started and give you the confidence to use R in your end-of-semester project
+- All the slides are available in the GitHub repository
+- I'm mostly here to help with R programming so don't hesitate to reach out

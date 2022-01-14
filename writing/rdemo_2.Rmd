@@ -668,3 +668,14 @@ anim_save("writing/rdemo_assets/animated-2.gif", plot)
 - Data transformation and tidying is the toolkit that enables visualization
 - Functional Programming is the mindset that epitomizes data transformation and tidying
 - You'll notice that <b>all</b> of the data manipulation I do in my scripts is via `dplyr` and `tidyr` verbs. This should be your goal as well!
+
+## Assignment
+
+- At this point you should be able to do your assignment
+  - Is there any clarification that would be helpful at this point?
+  - Don't hesitate to message me on Discord or email me at nhattersley@utexas.edu
+
+### Next time
+
+- Random helpful tidyverse packages
+- Attendance is optional, but if you're interested in R it's highly encouraged

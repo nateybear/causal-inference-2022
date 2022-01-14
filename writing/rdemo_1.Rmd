@@ -20,6 +20,10 @@ knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
 - Some LaTeX
 - Some R Markdown
 
+### Note on these slides
+
+- These are all in the GitHub repository that I set up for this project. Look in the writing folder for the rdemo .Rmd and .html files
+
 # Software Requirements
 
 ## R and RStudio
