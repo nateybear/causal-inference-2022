@@ -12,6 +12,9 @@ editor_options:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, eval=TRUE, fig.align = "center", fig.width=10, fig.height=5.3)
 library(knitr)
+library(here)
+here::i_am("writing/rdemo_2.Rmd")
+source(here("R/include.R"))
 # the below code makes plots show up on separate slides from the code that generates them
 local({
   hook_plot = knit_hooks$get('plot')
@@ -82,6 +85,12 @@ f(2)
   - `. %>% f %>% g` gets translated to `function(x) g(f(x))`
 - As academics who produce reports, we can think of R scripts as pipelines that operate on our saved data files and produce <b>some</b> output: a figure, another dataset, an R markdown file...
   - In a sense, our R scripts should look like one long string of pipes! We take our data and pipe it through a series of small, pure functions and wind up with our output.
+  
+## If you think this is cool
+
+- Read the section of Advanced R on functional programming [here](https://adv-r.hadley.nz/fp.html)
+- Listen to Hadley's keynote on Functional Programming [on YouTube](https://www.youtube.com/watch?v=bzUmK0Y07ck)
+- [Learn](http://learnyouahaskell.com/introduction) the Haskell Programming Language
 
 # `ggplot2`
 
@@ -98,7 +107,7 @@ ggplot(data = <DATA>) +
 ```
 ### References 
 - Chapter 3 in [R for Data Science](https://r4ds.had.co.nz/data-visualisation.html)
-- A [cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf) from RStudio
+- A [cheatsheet](https://github.com/rstudio/cheatsheets/raw/main/data-visualization-2.1.pdf) from RStudio
 - [The R Graph Gallery](https://www.r-graph-gallery.com/)
 - The [ggplot book](https://ggplot2-book.org/index.html)
 
@@ -123,7 +132,7 @@ ggplot(gapminder) +
 
 ## Slightly Improved Scatterplot 
 - This is a panel dataset, so we probably don't want to display data for all years
-  - In grammar of graphics, time is another "dimension" we could map to an aesthetic feature
+  - In grammar of graphics, the year is another "dimension" we could map to an aesthetic feature
   - For now, let's just filter the data and choose one year
 - Coding footnotes
   - Slightly annoyingly, we use `%>%` for the data pipeline and `+` to combine ggplot components
@@ -211,7 +220,7 @@ gapminder %>%
     scale_size_continuous(range = c(2, 18)) +
     labs(x = "GDP/cap", y = "Life Expectancy", 
          title = "This graph is looking nice now", fill = "Region") +
-    guides(size = FALSE)
+    guides(size = "none")
 ```
 
 ## Themes
@@ -318,7 +327,7 @@ ggplot(plot_data, aes(year, value, color=continent)) +
 
 - Finally, I'll use the `gganimate` package  to make a gif
   - If you've seen any gapminder visualizations before, this is what you've seen:
-```{r, cache=TRUE}
+```{r, cache=TRUE, eval=FALSE}
 plot <- gapminder %>%
   ggplot(aes(gdpPercap, lifeExp, fill = continent, size = pop)) +
     geom_point(pch=21, color="black") +
@@ -351,7 +360,7 @@ anim_save("writing/rdemo_assets/animated.gif", plot)
 - References:
   - R for Data Science [Chapter 5](https://r4ds.had.co.nz/transform.html), [Chapter 12](https://r4ds.had.co.nz/tidy-data.html)
   - Vignettes for [`tidyr`](https://tidyr.tidyverse.org/articles/) and [`dplyr`](https://dplyr.tidyverse.org/articles/)
-  - Cheetsheat on [data transformation](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf) 
+  - Cheetsheat on [data transformation](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf) 
     - FYI, all cheetsheats are available at [https://www.rstudio.com/resources/cheatsheets/](https://www.rstudio.com/resources/cheatsheets/)
     
 ## What is Data Manipulation
@@ -412,14 +421,15 @@ gapminder %>%
   head(5)
 ```
 
----
+## {.smaller}
 
 - Advanced usage includes the `across` verb
-  - See dplyr's [colwise vignette](https://dplyr.tidyverse.org/articles/colwise.html) for more info
+  - See dplyr's [colwise vignette](https://dplyr.tidyverse.org/articles/colwise.html) and [rowwise vignette](https://dplyr.tidyverse.org/articles/rowwise.html) for more info
+  - You will need these in your assignment!
 ```{r}
 # make log columns, perhaps for modeling. The {.col} is called "glue syntax"
 gapminder %>%
-  mutate(across(lifeExp:gdpPercap, log, .names = "log_{.col}")) %>%
+  mutate(across(where(is.numeric), log, .names = "log_{.col}")) %>%
   head(5)
 ```
 
@@ -442,58 +452,42 @@ gapminder %>%
 - If you've used SQL this should be familiar
   - Mutating joins are `inner_join`, `left_join`, `right_join`, `full_join`
   - Non-mutating ("inspecting") joins are `semi_join` and `anti_join`
-- Use a common field to link data from two tables together in interesting ways 
-
-## {.smaller}
-
-- Practical example: people do not agree on spellings of Afghan provinces
-  - Compare SAP data to other indicator data (forgot where I got it)
-```{r, cache=TRUE, warning = FALSE, message=FALSE}
-sap_provinces <- 
-  vroom(here("data/SAP_2019_clean.csv.gz")) %>% 
-  distinct(province = m7)
-
-other_provinces <- 
-  readxl::read_xlsx(here("data/Afghanistan Database.xlsx")) %>% 
-    clean_names %>% 
-    distinct(province = name)
-```
-- Coding footnotes
-  - `distinct` returns a one-column tibble of distinct values
-    - The two tables have different names for the province column so, e.g. `province = m7`, is renaming `m7` from the SAP dataset to a better name, `province`.
-  - `clean_names` changes column names to lower case and replaces spaces with underscores. Easier to program with data after cleaning names. If you want to go the "other" direction, check out the [`snakecase`](https://github.com/Tazinho/snakecase#snakecase-) package
-  
-## Use `anti_join` to inspect mismatches{.smaller}
-
-- What provinces are in SAP but not the other dataset?
-
-```{r}
-anti_join(sap_provinces, other_provinces, "province") %>% arrange(province)
-```
-
-## {.smaller}
-
-- What provinces are in the other dataset but not SAP?
-
-```{r}
-anti_join(other_provinces, sap_provinces, "province") %>% arrange(province)
-```
-
-## Solution: Translation Table {.smaller}
-- Look at this on your own time
-```{r, code = readLines(here("R/describe/RRRA_corruption_correlates.R"))[8:28], eval=F}
-```
+- Use a common field to link data from two tables together in interesting ways
+- Tutorial on joins in `dplyr` [here](https://dplyr.tidyverse.org/articles/two-table.html)
 
 ---
 
-- Now, we can join this indicator data with the `corruption_data` table that I compiled from SAP
-```{r, code = readLines(here("R/describe/RRRA_corruption_correlates.R"))[30:33], eval=F}
+- Practical example: let's use the World Bank Population dataset to study European countries
+```{r, cache=TRUE, warning = FALSE, message=FALSE}
+data("world_bank_pop")
+head(world_bank_pop, 3)
 ```
-- N.B. joins are very similar `filter` if you think about it
-  - Can be useful for filtering data based on values in a different table
-    - Then just [`coalesce`](https://dplyr.tidyverse.org/reference/coalesce.html) any NAs if you use full/left/right joins
-  - More info on joins [here](https://dplyr.tidyverse.org/articles/two-table.html)
+- Problem: there is no continent field in this data
   
+## Solution
+
+- Our `gapminder` data has a continent field, BUT it uses the full country name, not abbreviations!
+- So we need an intermediate table, which is called country codes
+```{r}
+data("country_codes")
+head(country_codes, 3)
+```
+
+## {.smaller}
+
+- Now we can `filter` the `gapminder` dataset first, then use two inner joins to reduce the World Bank dataset to European countries
+- Joins are very similar `filter` if you think about it
+  - `gapminder` was reduced to a smaller dataset and then subsequent joins reduced the size of `country_codes` and then `world_bank_pop`
+
+```{r}
+gapminder %>%
+  filter(continent == "Europe") %>%
+  distinct(country) %>%
+  inner_join(country_codes, "country") %>%
+  inner_join(world_bank_pop, c("iso_alpha" = "country")) %>%
+  sample_n(3)
+```
+
 ## Pivoting Data {.smaller}
 
 - tidyverse recently made the change from `gather`/`spread` to `pivot_longer`/`pivot_wider`
@@ -502,13 +496,13 @@ anti_join(other_provinces, sap_provinces, "province") %>% arrange(province)
 - Powerful and flexible way to reshape data sets
 - Question: is this a tidy data set? How would you want this to look for plotting?
 ```{r}
-data("world_bank_pop")
 world_bank_pop %>% select(1:10) %>% head(5)
 ```
 
 ## {.smaller}
 
 - Is this a tidy data set? How would you plot this data?
+  - Programming note: the `matches` function is a tidy select operator that matches columns via a regular expression. What is a regular expression? See [Chapter 14](https://r4ds.had.co.nz/strings.html) of R for Data Science.
 ```{r}
 world_bank_pop %>% pivot_longer(matches("20\\d\\d"), "year")
 ```
@@ -543,9 +537,8 @@ gapminder %>%
 ## {.smaller}
 
 - First, need to use `gapminder` to create a filter on continent
+- The "SP.URB.GROW" is the urban population growth indicator, which is what we care about
 ```{r}
-data("country_codes")
-
 urban_euros <- gapminder %>%
   filter(continent == "Europe") %>%
   distinct(country) %>%
@@ -568,7 +561,7 @@ urban_euros %>%
   mutate(country = fct_reorder(country, `2000`)) %>%
   ggplot(aes(x = `2000`, y = country, fill = `2000`)) +
     geom_bar(stat="identity", color = "dark grey") +
-    guides(fill = FALSE) +
+    guides(fill = "none") +
     scale_fill_gradient2(
       low = "#FA2721",
       mid = "white",
@@ -582,7 +575,6 @@ urban_euros %>%
 ## Why isn't there a year column? {.smaller}
 
 - In the end you're fundamentally limited by the lack of a year column
-
 ```{r}
 urban_euros %>%
   pivot_longer(matches("20\\d\\d"), names_to = "year") %>%
@@ -628,7 +620,7 @@ urban_euros %>%
   
   ggplot(aes(x = value, y = country, fill = value)) +
     geom_bar(stat="identity", color = "dark grey") +
-    guides(fill = FALSE) +
+    guides(fill = "none") +
     scale_fill_gradient2(
       low = "#FA2721",
       mid = "white",
@@ -642,14 +634,14 @@ urban_euros %>%
 ## We don't lose what we did before {.smaller}
 
 - In fact you gain a dimension you can add to that plot—time!
-```{r, cache=TRUE}
+```{r, cache=TRUE, eval=FALSE}
 plot <- urban_euros %>%
   pivot_longer(matches("20\\d\\d"), names_to = "year") %>%
   mutate(across(year, as.numeric)) %>%
   ggplot(aes(x = value, y = country, fill = value)) +
     geom_bar(stat="identity", color = "dark grey") +
     transition_time(year) +
-    guides(fill = FALSE) +
+    guides(fill = "none") +
     scale_fill_gradient2(
       low = "#FA2721",
       mid = "white",
@@ -675,3 +667,4 @@ anim_save("writing/rdemo_assets/animated-2.gif", plot)
   - Consume media that has good graphs—FiveThirtyEight, Vox, NY Times (many others) are all great
 - Data transformation and tidying is the toolkit that enables visualization
 - Functional Programming is the mindset that epitomizes data transformation and tidying
+- You'll notice that <b>all</b> of the data manipulation I do in my scripts is via `dplyr` and `tidyr` verbs. This should be your goal as well!
