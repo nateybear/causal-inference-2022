@@ -3,7 +3,7 @@
 # vignette("colwise")
 # vignette("rowwise")
 
-read_csv(here("data/NLSY97.csv")) %>%
+read_csv(here("data/NLSY97_raw.csv")) %>%
   
   # refused responses or already incarcerated --> NA
   # starts_with("E") are the columns that hold number of arrests per month of 2002

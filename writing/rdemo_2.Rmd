@@ -4,7 +4,6 @@ author: "Nathan Hattersley"
 output: 
   ioslides_presentation:
     widescreen: true
-    logo: rdemo_assets/logo.png
     highlight: zenburn
 editor_options: 
   chunk_output_type: console
@@ -29,13 +28,13 @@ local({
   - [Advanced R](https://adv-r.hadley.nz/) (...advanced, but a fantastic book)
     - Hadley Wickham; 2nd edition, 2019
     
-## Quick Hadley Appreciation Slide
+## Hadley Appreciation Slide
 - Hadley Wickham is "Chief Scientist" at RStudio
-- Author of many [tidyverse](https://www.tidyverse.org/) core packages and its chief evangelist
+- Author of many [tidyverse](https://www.tidyverse.org/) core packages
 
 ![](rdemo_assets/hadley.jpeg)
 
-- Two of my favorite Hadley talks: [here](https://www.youtube.com/watch?v=9YTNYT1maa4) and [here](https://www.youtube.com/watch?v=bzUmK0Y07ck)
+- Has good talks on YouTube, e.g. [here](https://www.youtube.com/watch?v=9YTNYT1maa4) and [here](https://www.youtube.com/watch?v=bzUmK0Y07ck)
 
 ## First Some Context
 - There is a deeper philosophy underlying the concepts of tidy data and visualization
@@ -51,20 +50,10 @@ local({
 ```{r}
 pure_function <- function(x) x + 3
 ```
-- This function is not pure—we are changing the global variable y each time the function is called:
+- This function is not pure because it relies on a global variable. I can change `y` and change the behavior of the function.
 ```{r}
-y <- 0
-impure_function <- function(x) {
-  y <<- y + x
-  y + 3
-}
-```
-
-## FP Building Block: First-Class Functions
-- A key part of functional languages is that functions can be assigned to variables, used as arguments to functions, etc.
-- Unlike in many other languages, there is no special syntax for defining and naming a function: you simply create a function object (with `function`) and bind it to a name with `<-`
-```{r}
-f <- function(x) x + 3
+y <- 3
+impure_function <- function(x) x + y
 ```
 
 ## Advanced R, quote about Functional Programming (emphasis added)
@@ -81,7 +70,6 @@ f <- function(x) x + 3
 square <- function(x) x^2
 add3 <- function(x) x + 3
 f <- . %>% square %>% add3 %>% sqrt %>% exp
-# alternatively, f <- . %>% `^`(2) %>% `+`(3) %>% sqrt %>% exp
 f(2)
 ```
 - This idea of function pipelining captures the essence of functional programming
@@ -90,15 +78,10 @@ f(2)
 
 - The pipe operator from `magrittr` is a key part of our FP toolkit
   - `x %>% f` and `x %>% f()` get translated to `f(x)`
-  - `x %>% f(y)` gets translated to `x %>% f(x,y)`
+  - `x %>% f(y)` gets translated to `f(x,y)`
   - `. %>% f %>% g` gets translated to `function(x) g(f(x))`
 - As academics who produce reports, we can think of R scripts as pipelines that operate on our saved data files and produce <b>some</b> output: a figure, another dataset, an R markdown file...
-  - In a sense, our R scripts should look like one long string of pipes! Keep this in mind throughout the rest of these slides.
-
-## If you really want to go there...
-- [So what's Haskell?](http://learnyouahaskell.com/introduction#so-whats-haskell)
-
-<iframe width="400" height="275" src="https://www.youtube.com/embed/6mTbuzafcII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  - In a sense, our R scripts should look like one long string of pipes! We take our data and pipe it through a series of small, pure functions and wind up with our output.
 
 # `ggplot2`
 
