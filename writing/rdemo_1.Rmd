@@ -26,26 +26,26 @@ knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
 
 # Software Requirements
 
-## R and RStudio
+## {.smaller}
+
+### R and RStudio
 
 -   At least R 4.0.0, RStudio 1.4.0 recommended
--   You should always strive to keep your software updated to the latest stable version...
 -   Follow the instructions [here](https://www.rstudio.com/products/rstudio/download/#download) to download R and RStudio
 
-## Git and GitHub
+### Git and GitHub
 
 -   `git` is a command-line tool for version control. GitHub is a remote repository where you can store git projects.
     - Most computers these days come with git already installed
 -   You will need to create an account with GitHub and configure `git` with your GH credentials
-    - The accepted way to do this has changed a lot over the past few years
-    - Comprehensive documentation [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github) on authentication
+    - Multiple ways of doing this: comprehensive documentation [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github)
     - I used [GitHub CLI](https://cli.github.com/) (command-line interface) recently and liked it
       - Download and run `gh auth login` followed by `gh auth setup-git`
       
-## LaTeX
+### LaTeX
 
-- Typesetting software, plain text as opposed to the WYSIWYG style of Word
-- "Separates presentation from content"
+- Typesetting software, aka "Fancy Word"
+- "If Microsoft Word were a programming language"
 - Download [here](https://www.latex-project.org/get/), unfortunately it's 7 GB of stuff
 
 # Projects in R
@@ -55,8 +55,8 @@ knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
 - You can launch RStudio by double-clicking on the `.Rproj` file
 
 ### Encourages "modular" development
-- Don't pollute your workspace with stuff from other projects!
-- `.Rproj` files are loaded in a new RStudio instance
+- Opens one window per project
+- Avoid having stuff from one project in your workspace
 
 ## `.Rprofile`
 - One of a number of "special" R files, [here's a list of them](https://support.rstudio.com/hc/en-us/articles/360047157094-Managing-R-with-Rprofile-Renviron-Rprofile-site-Renviron-site-rsession-conf-and-repos-conf)
@@ -115,11 +115,11 @@ knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
 - Use my `paper.tex` file as a guide for your own report
 - These slides are also in my `writing` directory
 
-## A Word of Warning | Don't Save Workspace Data
-- When you exit RStudio, you are presented with a dialog box asking if you would like to save your workspace data
-- Do NOT save your workspace data, ever!
-- It is antithetical to the concept of reproducible research
-- It is even included in `.gitignore` (for good reason!)
+## Workflow using your workspace
+- Your workspace is a place to test things out
+- Type code in your console and see if it works
+- Once it works, WRITE IT DOWN in a file!
+- Don't save your workspace data when you close RStudio
 
 # Some LaTeX
 
@@ -151,6 +151,7 @@ knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
 ```{tex, code = readLines(here("writing/paper.tex"))[47:50]}
 ```
 ![](rdemo_assets/latex-sample.png){width=80%, height=80%}
+
 - Advanced users: Check out the [subfiles](https://www.overleaf.com/learn/latex/Multi-file_LaTeX_projects) package for working with large projects
 
 # RMarkdown, Briefly | `.Rmd` and `.Rnw`
