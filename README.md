@@ -17,5 +17,3 @@ The deliverable that you turn into Canvas will be a URL linking to your GitHub r
 * A script that generates a summary table using `kableExtra` and saves it in the tables directory
 * A script that generates a regression output summary using `stargazer` and saves it in the tables directory
 * A brief report written in LaTeX that summarizes the patterns that you find. Use a formal and descriptive writing style. You will be graded on a genuine attempt at analyzing the results.
-
-This is a comment, ignore please.
