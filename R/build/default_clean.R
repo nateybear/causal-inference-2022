@@ -1,9 +1,11 @@
-# Builds the cleaned NLSY97 dataset on crime for analysis
+# Builds the cleaned NLSY97 dataset on incarceration for analysis
 # Read the colwise and rowwise vignettes carefully to understand this code.
 # vignette("colwise")
 # vignette("rowwise")
 
-read_csv(here("data/NLSY97_raw.csv")) %>%
+library(readr)
+library(dplyr)
+read_csv("/Users/jirapat/Desktop/R/default/default.csv") %>%
   
   # refused responses or already incarcerated --> NA
   # starts_with("E") are the columns that hold number of arrests per month of 2002
@@ -14,11 +16,11 @@ read_csv(here("data/NLSY97_raw.csv")) %>%
   ))) %>%
   
   # if you had NAs for the entire year, remove you
-  filter(if_any(starts_with("E"), ~!is.na(.x))) %>%
+  filter(if_any(starts_with("R"), ~!is.na(.x))) %>%
   
   # sum across the months using rowwise
   rowwise() %>%
-  mutate(total_arrests = sum(c_across(starts_with("E")), na.rm = TRUE)) %>%
+  mutate(incarcerated = ifelse(sum(c_across(starts_with("E")), na.rm = TRUE) >= 1, yes = 1, no = 0)) %>%
   ungroup() %>%
 
   # recode the gender variable
@@ -33,7 +35,7 @@ read_csv(here("data/NLSY97_raw.csv")) %>%
   )) %>%
   
   # finally, select the variables that will be used in the analysis
-  select(race, gender, total_arrests) %>%
+  select(race, gender, incarcerated) %>%
   
   # write to a csv
-  write_csv(here("data/NLSY97_clean.csv"))
+  write_csv(here("data/default_clean.csv"))

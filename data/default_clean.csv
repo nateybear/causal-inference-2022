@@ -1,4 +1,4 @@
-race,gender,total_arrests
+race,gender,incarcerated
 Non-Black / Non-Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Female,0
@@ -83,7 +83,7 @@ Black,Female,0
 Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,5
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -193,7 +193,7 @@ Non-Black / Non-Hispanic,Male,0
 Hispanic,Female,0
 Black,Female,0
 Hispanic,Female,0
-Black,Male,6
+Black,Male,1
 Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
@@ -248,7 +248,7 @@ Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,2
+Non-Black / Non-Hispanic,Male,1
 Hispanic,Male,0
 Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
@@ -368,7 +368,7 @@ Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Female,0
 Hispanic,Male,0
-Hispanic,Male,10
+Hispanic,Male,1
 Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Female,0
@@ -412,7 +412,7 @@ Hispanic,Male,0
 Hispanic,Female,0
 Hispanic,Male,0
 Black,Male,0
-Black,Female,3
+Black,Female,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
@@ -521,7 +521,7 @@ Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,2
+Non-Black / Non-Hispanic,Female,1
 Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Male,0
@@ -587,7 +587,7 @@ Non-Black / Non-Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,8
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Female,0
 Hispanic,Female,0
@@ -604,7 +604,7 @@ Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Female,0
 Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,2
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -805,7 +805,7 @@ Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Female,0
-Hispanic,Male,3
+Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -988,7 +988,7 @@ Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,9
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
@@ -998,7 +998,7 @@ Non-Black / Non-Hispanic,Male,0
 Black,Male,0
 Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
-Black,Male,12
+Black,Male,1
 Black,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
@@ -1022,7 +1022,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,4
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -1031,7 +1031,7 @@ Non-Black / Non-Hispanic,Male,0
 Black,Male,0
 Black,Male,0
 Black,Female,0
-Black,Male,12
+Black,Male,1
 Black,Female,0
 Black,Male,0
 Black,Male,0
@@ -1181,7 +1181,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Hispanic,Male,4
+Hispanic,Male,1
 Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Female,0
@@ -1394,7 +1394,7 @@ Hispanic,Female,0
 Black,Male,0
 Black,Male,0
 Black,Male,0
-Black,Male,11
+Black,Male,1
 Black,Female,0
 Black,Female,0
 Black,Male,0
@@ -1552,7 +1552,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Black,Male,0
 Black,Male,0
-Black,Male,12
+Black,Male,1
 Black,Male,0
 Black,Female,0
 Black,Male,0
@@ -1561,7 +1561,7 @@ Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Male,0
 Black,Male,0
-Black,Male,7
+Black,Male,1
 Black,Female,0
 Black,Female,0
 Black,Female,0
@@ -1661,7 +1661,7 @@ Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,12
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -1720,7 +1720,7 @@ Non-Black / Non-Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Female,0
-Hispanic,Male,8
+Hispanic,Male,1
 Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Male,0
@@ -1783,7 +1783,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Black,Female,0
-Black,Male,8
+Black,Male,1
 Black,Male,0
 Black,Female,0
 Black,Male,0
@@ -1839,7 +1839,7 @@ Black,Female,0
 Black,Female,0
 Black,Female,0
 Black,Male,0
-Non-Black / Non-Hispanic,Male,5
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Black,Male,0
 Black,Female,0
@@ -2267,7 +2267,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,7
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -2356,7 +2356,7 @@ Black,Male,0
 Black,Male,0
 Black,Female,0
 Black,Male,0
-Black,Male,2
+Black,Male,1
 Black,Male,0
 Black,Male,0
 Black,Female,0
@@ -2607,7 +2607,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,3
+Non-Black / Non-Hispanic,Female,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -2690,7 +2690,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,4
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
@@ -2792,7 +2792,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Black,Male,9
+Black,Male,1
 Black,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
@@ -2828,7 +2828,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,12
+Non-Black / Non-Hispanic,Male,1
 Black,Female,0
 Black,Female,0
 Black,Female,0
@@ -2861,7 +2861,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,2
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
@@ -3026,7 +3026,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,7
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Male,0
@@ -3037,7 +3037,7 @@ Mixed Race (Non-Hispanic),Female,0
 Mixed Race (Non-Hispanic),Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
-Black,Male,12
+Black,Male,1
 Non-Black / Non-Hispanic,Female,0
 Black,Female,0
 Non-Black / Non-Hispanic,Female,0
@@ -3095,7 +3095,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Black,Female,0
 Black,Male,0
-Black,Male,10
+Black,Male,1
 Black,Male,0
 Black,Male,0
 Black,Female,0
@@ -3291,7 +3291,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Black,Female,0
 Black,Female,0
-Black,Male,6
+Black,Male,1
 Black,Male,0
 Black,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -3441,7 +3441,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,6
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
@@ -3514,7 +3514,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Black,Female,3
+Black,Female,1
 Black,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
@@ -3625,7 +3625,7 @@ Non-Black / Non-Hispanic,Female,0
 Black,Male,0
 Black,Female,0
 Black,Female,0
-Black,Male,12
+Black,Male,1
 Black,Male,0
 Black,Female,0
 Black,Female,0
@@ -3644,7 +3644,7 @@ Black,Male,0
 Black,Male,0
 Black,Male,0
 Black,Male,0
-Black,Male,12
+Black,Male,1
 Black,Female,0
 Non-Black / Non-Hispanic,Male,0
 Black,Male,0
@@ -3721,7 +3721,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Black,Male,3
+Black,Male,1
 Black,Male,0
 Black,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -3732,19 +3732,19 @@ Black,Female,0
 Black,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
-Black,Male,12
+Black,Male,1
 Black,Female,0
 Black,Female,0
 Black,Male,0
 Black,Female,0
 Hispanic,Female,0
-Black,Male,12
+Black,Male,1
 Black,Male,0
 Black,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Black,Female,0
-Black,Male,8
+Black,Male,1
 Black,Female,0
 Black,Male,0
 Black,Female,0
@@ -3758,7 +3758,7 @@ Black,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,2
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Black,Female,0
 Non-Black / Non-Hispanic,Male,0
@@ -3875,7 +3875,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Black,Male,0
 Black,Female,0
-Black,Male,12
+Black,Male,1
 Black,Female,0
 Black,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -3912,7 +3912,7 @@ Black,Female,0
 Black,Female,0
 Black,Male,0
 Black,Female,0
-Black,Male,2
+Black,Male,1
 Black,Female,0
 Black,Female,0
 Black,Female,0
@@ -3931,7 +3931,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Black,Female,0
 Non-Black / Non-Hispanic,Female,0
-Black,Male,9
+Black,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -3973,7 +3973,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,8
+Non-Black / Non-Hispanic,Female,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -3984,7 +3984,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,5
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -4084,7 +4084,7 @@ Black,Female,0
 Black,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,12
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -4108,13 +4108,13 @@ Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,12
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Female,0
-Hispanic,Male,8
+Hispanic,Male,1
 Hispanic,Male,0
 Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
@@ -4251,7 +4251,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Hispanic,Male,0
-Hispanic,Female,12
+Hispanic,Female,1
 Hispanic,Male,0
 Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
@@ -4280,7 +4280,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,12
+Non-Black / Non-Hispanic,Male,1
 Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
@@ -4341,7 +4341,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Female,0
 Hispanic,Female,0
-Hispanic,Male,12
+Hispanic,Male,1
 Hispanic,Female,0
 Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -4390,7 +4390,7 @@ Hispanic,Male,0
 Hispanic,Female,0
 Hispanic,Female,0
 Hispanic,Female,0
-Hispanic,Male,6
+Hispanic,Male,1
 Hispanic,Male,0
 Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -4411,7 +4411,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Black,Male,0
-Black,Male,5
+Black,Male,1
 Black,Female,0
 Black,Male,0
 Black,Male,0
@@ -4852,7 +4852,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,2
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -4941,14 +4941,14 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,4
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,8
+Non-Black / Non-Hispanic,Female,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
@@ -5053,7 +5053,7 @@ Black,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,3
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Black,Female,0
 Black,Female,0
@@ -5269,9 +5269,9 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,12
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,7
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -5310,7 +5310,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,2
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -5322,7 +5322,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,1
-Non-Black / Non-Hispanic,Male,4
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
@@ -5504,7 +5504,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,12
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -5535,7 +5535,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,8
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -5818,7 +5818,7 @@ Black,Male,0
 Non-Black / Non-Hispanic,Female,0
 Black,Male,0
 Black,Female,0
-Black,Male,4
+Black,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -5832,7 +5832,7 @@ Black,Female,0
 Black,Female,0
 Black,Male,0
 Black,Male,0
-Black,Male,12
+Black,Male,1
 Black,Male,0
 Black,Female,0
 Black,Male,0
@@ -5840,7 +5840,7 @@ Black,Female,0
 Black,Female,0
 Black,Female,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,12
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
@@ -5912,7 +5912,7 @@ Black,Female,0
 Black,Male,0
 Black,Male,0
 Black,Female,0
-Black,Female,2
+Black,Female,1
 Black,Female,0
 Black,Male,0
 Black,Male,0
@@ -6013,7 +6013,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,4
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
@@ -6054,7 +6054,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,9
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -6149,7 +6149,7 @@ Black,Male,0
 Black,Female,0
 Black,Male,0
 Black,Female,0
-Non-Black / Non-Hispanic,Female,10
+Non-Black / Non-Hispanic,Female,1
 Non-Black / Non-Hispanic,Female,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
@@ -6229,7 +6229,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
-Hispanic,Male,2
+Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
@@ -6426,7 +6426,7 @@ Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,10
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
@@ -6511,7 +6511,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,8
+Non-Black / Non-Hispanic,Male,1
 Hispanic,Male,0
 Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -6572,12 +6572,12 @@ Black,Female,0
 Black,Female,0
 Black,Female,0
 Black,Female,0
-Black,Female,3
+Black,Female,1
 Hispanic,Male,0
 Hispanic,Female,0
 Black,Male,0
 Hispanic,Male,0
-Black,Male,12
+Black,Male,1
 Hispanic,Female,0
 Hispanic,Female,0
 Hispanic,Male,0
@@ -6592,7 +6592,7 @@ Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Male,0
-Hispanic,Male,9
+Hispanic,Male,1
 Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Female,0
@@ -6636,7 +6636,7 @@ Black,Female,0
 Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Male,0
-Hispanic,Male,6
+Hispanic,Male,1
 Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Female,0
@@ -6668,7 +6668,7 @@ Black,Male,0
 Black,Male,0
 Black,Female,0
 Black,Female,0
-Hispanic,Female,2
+Hispanic,Female,1
 Black,Male,0
 Hispanic,Female,0
 Black,Male,0
@@ -6758,7 +6758,7 @@ Hispanic,Female,0
 Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Male,0
-Hispanic,Male,5
+Hispanic,Male,1
 Hispanic,Female,0
 Hispanic,Female,0
 Hispanic,Male,0
@@ -6768,7 +6768,7 @@ Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Female,0
 Hispanic,Male,0
-Hispanic,Male,5
+Hispanic,Male,1
 Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Female,0
@@ -6808,7 +6808,7 @@ Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Female,0
-Hispanic,Male,2
+Hispanic,Male,1
 Hispanic,Female,0
 Hispanic,Female,0
 Black,Male,0
@@ -6850,7 +6850,7 @@ Black,Female,0
 Black,Female,0
 Black,Male,0
 Black,Male,0
-Black,Male,12
+Black,Male,1
 Black,Male,0
 Black,Female,0
 Black,Male,0
@@ -6867,13 +6867,6 @@ Black,Female,0
 Black,Male,0
 Black,Male,0
 Black,Male,0
-Black,Female,0
-Black,Female,0
-Black,Female,0
-Black,Male,0
-Black,Female,0
-Black,Male,0
-Black,Female,0
 Black,Female,0
 Black,Female,0
 Black,Female,0
@@ -6882,6 +6875,13 @@ Black,Female,0
 Black,Male,0
 Black,Female,0
 Black,Female,0
+Black,Female,0
+Black,Female,0
+Black,Male,0
+Black,Female,0
+Black,Male,0
+Black,Female,0
+Black,Female,0
 Black,Male,0
 Black,Female,0
 Black,Female,0
@@ -6907,7 +6907,7 @@ Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Male,0
 Black,Male,0
-Black,Male,2
+Black,Male,1
 Hispanic,Female,0
 Hispanic,Female,0
 Hispanic,Male,0
@@ -6935,7 +6935,7 @@ Black,Female,0
 Black,Male,0
 Black,Female,0
 Black,Male,0
-Black,Male,6
+Black,Male,1
 Black,Male,0
 Black,Male,0
 Black,Male,0
@@ -6954,7 +6954,7 @@ Black,Male,0
 Black,Male,0
 Black,Male,0
 Hispanic,Female,0
-Hispanic,Male,7
+Hispanic,Male,1
 Hispanic,Female,0
 Black,Male,0
 Hispanic,Female,0
@@ -6972,7 +6972,7 @@ Black,Female,0
 Black,Male,0
 Hispanic,Male,0
 Hispanic,Male,0
-Hispanic,Male,7
+Hispanic,Male,1
 Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Female,0
@@ -7002,7 +7002,7 @@ Black,Female,0
 Black,Male,0
 Hispanic,Male,0
 Black,Female,0
-Black,Male,12
+Black,Male,1
 Black,Female,0
 Hispanic,Male,0
 Hispanic,Male,0
@@ -7026,7 +7026,7 @@ Black,Male,0
 Black,Male,0
 Black,Male,0
 Black,Female,0
-Black,Male,12
+Black,Male,1
 Black,Female,0
 Black,Male,0
 Black,Male,0
@@ -7044,7 +7044,7 @@ Black,Female,0
 Hispanic,Female,0
 Black,Male,0
 Black,Female,0
-Black,Male,2
+Black,Male,1
 Black,Male,0
 Hispanic,Female,0
 Black,Female,0
@@ -7093,7 +7093,7 @@ Black,Female,0
 Black,Male,0
 Black,Male,0
 Black,Male,0
-Black,Male,11
+Black,Male,1
 Black,Female,0
 Black,Female,0
 Black,Male,0
@@ -7213,7 +7213,7 @@ Black,Female,0
 Black,Male,0
 Black,Male,0
 Black,Female,0
-Black,Female,7
+Black,Female,1
 Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Male,0
@@ -7226,7 +7226,7 @@ Black,Male,0
 Black,Male,0
 Black,Male,0
 Black,Male,0
-Black,Male,10
+Black,Male,1
 Black,Male,0
 Black,Male,0
 Black,Male,0
@@ -7434,7 +7434,7 @@ Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Female,0
 Hispanic,Male,0
-Hispanic,Male,2
+Hispanic,Male,1
 Hispanic,Male,0
 Hispanic,Female,0
 Hispanic,Male,0
@@ -7584,7 +7584,7 @@ Hispanic,Male,0
 Hispanic,Female,0
 Hispanic,Female,0
 Hispanic,Male,0
-Hispanic,Female,3
+Hispanic,Female,1
 Hispanic,Female,0
 Hispanic,Female,0
 Hispanic,Female,0
@@ -7651,7 +7651,7 @@ Black,Female,0
 Black,Male,0
 Black,Male,0
 Hispanic,Male,0
-Hispanic,Male,3
+Hispanic,Male,1
 Hispanic,Male,0
 Hispanic,Male,0
 Black,Male,0
@@ -7675,7 +7675,7 @@ Black,Male,0
 Black,Female,0
 Black,Female,0
 Black,Male,0
-Black,Male,12
+Black,Male,1
 Black,Female,0
 Hispanic,Female,0
 Hispanic,Male,0
@@ -7687,37 +7687,37 @@ Black,Female,0
 Black,Female,0
 Black,Male,0
 Black,Female,0
-Black,Male,12
+Black,Male,1
 Black,Female,0
 Black,Male,0
 Black,Female,0
 Black,Female,0
 Black,Female,0
-Black,Male,12
+Black,Male,1
 Black,Female,0
 Black,Female,0
 Black,Male,0
 Black,Male,0
 Black,Male,0
 Black,Female,0
-Black,Male,6
+Black,Male,1
 Black,Male,0
 Black,Male,0
 Black,Female,0
-Black,Male,12
-Black,Female,0
-Black,Male,0
+Black,Male,1
 Black,Female,0
 Black,Male,0
 Black,Female,0
 Black,Male,0
 Black,Female,0
-Black,Male,12
+Black,Male,0
+Black,Female,0
+Black,Male,1
 Black,Female,0
 Black,Male,0
 Black,Female,0
 Black,Female,0
-Black,Male,9
+Black,Male,1
 Black,Female,0
 Black,Male,0
 Black,Male,0
@@ -7727,18 +7727,18 @@ Black,Male,0
 Black,Male,0
 Black,Male,0
 Black,Male,0
-Black,Male,0
-Black,Male,0
-Black,Male,0
-Black,Female,0
-Black,Male,0
-Black,Female,0
 Black,Male,0
 Black,Male,0
 Black,Male,0
 Black,Female,0
 Black,Male,0
 Black,Female,0
+Black,Male,0
+Black,Male,0
+Black,Male,0
+Black,Female,0
+Black,Male,0
+Black,Female,0
 Black,Female,0
 Black,Female,0
 Black,Female,0
@@ -7762,7 +7762,7 @@ Black,Male,0
 Black,Male,0
 Black,Male,0
 Black,Female,0
-Black,Male,4
+Black,Male,1
 Black,Male,0
 Black,Male,0
 Black,Male,0
@@ -7858,8 +7858,8 @@ Black,Female,0
 Black,Male,0
 Black,Male,0
 Black,Male,0
-Black,Male,12
-Black,Male,12
+Black,Male,1
+Black,Male,1
 Black,Female,0
 Black,Female,0
 Black,Female,0
@@ -7962,7 +7962,7 @@ Black,Female,0
 Black,Male,0
 Black,Female,0
 Black,Male,0
-Black,Male,8
+Black,Male,1
 Black,Female,0
 Black,Male,0
 Black,Male,0
@@ -8097,7 +8097,7 @@ Black,Female,0
 Black,Female,0
 Black,Male,0
 Black,Female,0
-Black,Male,12
+Black,Male,1
 Black,Female,0
 Black,Female,0
 Black,Male,0
@@ -8108,7 +8108,7 @@ Hispanic,Female,0
 Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Male,0
-Hispanic,Male,12
+Hispanic,Male,1
 Hispanic,Male,0
 Hispanic,Female,0
 Black,Female,0
@@ -8199,7 +8199,7 @@ Hispanic,Male,0
 Hispanic,Female,0
 Black,Female,0
 Black,Male,0
-Black,Male,2
+Black,Male,1
 Black,Male,0
 Hispanic,Female,0
 Hispanic,Male,0
@@ -8245,7 +8245,7 @@ Black,Male,0
 Black,Female,0
 Black,Female,0
 Black,Female,0
-Black,Male,3
+Black,Male,1
 Black,Male,0
 Black,Female,0
 Black,Female,0
@@ -8266,7 +8266,7 @@ Black,Male,0
 Black,Female,0
 Black,Female,0
 Black,Male,0
-Black,Male,4
+Black,Male,1
 Black,Female,0
 Black,Female,0
 Black,Male,0
@@ -8276,37 +8276,37 @@ Black,Female,0
 Black,Male,0
 Black,Female,0
 Black,Female,0
-Black,Male,0
-Hispanic,Male,0
-Black,Female,0
-Black,Female,0
-Black,Female,0
-Black,Male,0
-Black,Male,0
-Black,Male,0
-Black,Female,0
-Black,Female,0
-Black,Male,0
-Black,Male,0
-Black,Female,0
-Black,Female,0
-Black,Female,0
-Black,Male,0
-Black,Male,0
-Black,Female,0
-Black,Male,0
-Black,Female,0
-Black,Male,0
-Black,Female,0
-Black,Male,0
-Black,Female,0
-Hispanic,Male,0
-Hispanic,Female,0
 Black,Male,0
 Hispanic,Male,0
 Black,Female,0
 Black,Female,0
 Black,Female,0
+Black,Male,0
+Black,Male,0
+Black,Male,0
+Black,Female,0
+Black,Female,0
+Black,Male,0
+Black,Male,0
+Black,Female,0
+Black,Female,0
+Black,Female,0
+Black,Male,0
+Black,Male,0
+Black,Female,0
+Black,Male,0
+Black,Female,0
+Black,Male,0
+Black,Female,0
+Black,Male,0
+Black,Female,0
+Hispanic,Male,0
+Hispanic,Female,0
+Black,Male,0
+Hispanic,Male,0
+Black,Female,0
+Black,Female,0
+Black,Female,0
 Black,Female,0
 Black,Male,0
 Black,Male,0
@@ -8316,8 +8316,8 @@ Black,Female,0
 Black,Female,0
 Black,Male,0
 Black,Female,0
-Black,Male,4
-Black,Male,12
+Black,Male,1
+Black,Male,1
 Black,Male,0
 Black,Male,0
 Hispanic,Male,0
@@ -8329,7 +8329,7 @@ Black,Male,0
 Black,Female,0
 Black,Female,0
 Black,Female,0
-Hispanic,Male,12
+Hispanic,Male,1
 Hispanic,Male,0
 Hispanic,Male,0
 Black,Female,0
@@ -8347,10 +8347,10 @@ Black,Female,0
 Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Male,0
-Black,Female,3
+Black,Female,1
 Hispanic,Female,0
 Hispanic,Male,0
-Black,Male,7
+Black,Male,1
 Black,Male,0
 Hispanic,Female,0
 Black,Male,0
@@ -8378,7 +8378,7 @@ Black,Female,0
 Black,Female,0
 Black,Male,1
 Black,Female,0
-Black,Male,7
+Black,Male,1
 Black,Male,0
 Black,Female,0
 Black,Male,0
@@ -8397,7 +8397,7 @@ Black,Female,0
 Black,Male,0
 Black,Male,0
 Black,Female,0
-Black,Male,12
+Black,Male,1
 Black,Male,0
 Black,Male,0
 Black,Female,0
@@ -8417,7 +8417,7 @@ Black,Female,0
 Black,Male,0
 Black,Male,0
 Black,Male,0
-Black,Male,6
+Black,Male,1
 Black,Male,0
 Black,Female,0
 Black,Female,0
@@ -8524,7 +8524,7 @@ Hispanic,Female,0
 Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Female,0
-Hispanic,Female,7
+Hispanic,Female,1
 Hispanic,Male,0
 Hispanic,Male,0
 Hispanic,Male,0
@@ -8539,7 +8539,7 @@ Hispanic,Male,0
 Hispanic,Male,0
 Black,Female,0
 Black,Male,1
-Black,Male,2
+Black,Male,1
 Black,Male,0
 Black,Female,0
 Black,Male,0
@@ -8607,7 +8607,7 @@ Hispanic,Male,0
 Hispanic,Male,0
 Black,Male,0
 Black,Female,0
-Black,Male,10
+Black,Male,1
 Hispanic,Female,0
 Hispanic,Female,0
 Black,Male,0
@@ -8622,8 +8622,8 @@ Black,Female,1
 Hispanic,Female,0
 Black,Female,0
 Black,Female,0
-Black,Male,12
-Black,Male,12
+Black,Male,1
+Black,Male,1
 Black,Male,0
 Black,Male,0
 Black,Male,0
@@ -8667,13 +8667,13 @@ Black,Female,0
 Black,Female,0
 Black,Female,0
 Hispanic,Female,0
-Black,Male,2
+Black,Male,1
 Black,Female,0
-Black,Male,2
+Black,Male,1
 Black,Female,0
 Black,Male,0
 Black,Male,0
-Black,Male,9
+Black,Male,1
 Hispanic,Male,0
 Hispanic,Male,0
 Black,Female,0
@@ -8720,12 +8720,12 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
-Hispanic,Male,8
+Hispanic,Male,1
 Black,Male,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,3
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,5
+Non-Black / Non-Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Male,0
@@ -8742,172 +8742,172 @@ Black,Female,0
 Black,Female,0
 Hispanic,Male,0
 Hispanic,Male,0
-Mixed Race (Non-Hispanic),Female,6
+Mixed Race (Non-Hispanic),Female,1
 Hispanic,Male,0
 Hispanic,Female,0
 Hispanic,Female,0
-Hispanic,Female,2
+Hispanic,Female,1
 Hispanic,Male,0
 Hispanic,Female,0
-Black,Female,0
-Black,Male,0
-Black,Female,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Black,Female,0
-Black,Female,0
-Black,Male,0
-Black,Male,0
-Black,Female,0
-Black,Female,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Black,Male,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Hispanic,Female,0
-Hispanic,Female,0
-Hispanic,Male,0
-Hispanic,Female,0
-Hispanic,Female,0
-Hispanic,Female,0
-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Hispanic,Female,0
-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Hispanic,Female,0
-Hispanic,Male,0
-Hispanic,Male,0
-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Hispanic,Male,0
-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,0
-Black,Male,0
-Black,Male,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,0
-Black,Male,0
-Black,Male,0
-Non-Black / Non-Hispanic,Female,0
-Black,Male,0
-Black,Male,0
-Black,Male,0
-Non-Black / Non-Hispanic,Female,0
-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Hispanic,Male,0
-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,0
-Hispanic,Male,0
-Hispanic,Male,0
-Hispanic,Male,0
-Hispanic,Female,0
-Black,Female,0
 Black,Female,0
 Black,Male,0
 Black,Female,0
-Black,Male,0
-Hispanic,Female,0
-Hispanic,Female,0
-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Hispanic,Female,0
-Hispanic,Female,0
-Hispanic,Male,0
-Hispanic,Female,0
-Hispanic,Female,0
-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Black,Male,0
-Black,Male,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,0
-Hispanic,Female,0
-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Black,Female,0
-Black,Male,0
-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,0
-Black,Female,0
-Hispanic,Female,0
-Hispanic,Male,0
-Hispanic,Male,0
-Hispanic,Male,0
-Hispanic,Male,0
-Hispanic,Male,0
-Hispanic,Female,0
-Hispanic,Male,0
-Non-Black / Non-Hispanic,Male,0
-Black,Female,0
-Black,Female,0
-Black,Female,0
-Hispanic,Male,0
-Black,Female,0
-Black,Female,0
-Black,Male,0
-Black,Female,0
-Non-Black / Non-Hispanic,Female,0
-Black,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Non-Black / Non-Hispanic,Female,0
-Black,Male,0
-Black,Female,0
-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,0
-Black,Male,0
-Black,Male,0
-Non-Black / Non-Hispanic,Male,0
-Black,Female,0
-Black,Female,0
 Black,Female,0
 Black,Female,0
 Black,Male,0
 Black,Male,0
 Black,Female,0
+Black,Female,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Black,Male,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Hispanic,Female,0
+Hispanic,Female,0
+Hispanic,Male,0
+Hispanic,Female,0
+Hispanic,Female,0
+Hispanic,Female,0
+Hispanic,Male,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Hispanic,Female,0
+Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Hispanic,Female,0
+Hispanic,Male,0
+Hispanic,Male,0
+Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Hispanic,Male,0
+Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Male,0
+Black,Male,0
+Black,Male,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Female,0
+Black,Male,0
+Black,Male,0
+Non-Black / Non-Hispanic,Female,0
+Black,Male,0
+Black,Male,0
+Black,Male,0
+Non-Black / Non-Hispanic,Female,0
+Hispanic,Female,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Hispanic,Male,0
+Hispanic,Female,0
+Non-Black / Non-Hispanic,Male,0
+Hispanic,Male,0
+Hispanic,Male,0
+Hispanic,Male,0
+Hispanic,Female,0
+Black,Female,0
+Black,Female,0
+Black,Male,0
+Black,Female,0
+Black,Male,0
+Hispanic,Female,0
+Hispanic,Female,0
+Hispanic,Female,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Hispanic,Female,0
+Hispanic,Female,0
+Hispanic,Male,0
+Hispanic,Female,0
+Hispanic,Female,0
+Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Black,Male,0
+Black,Male,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Male,0
+Hispanic,Female,0
+Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Black,Female,0
+Black,Male,0
+Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Male,0
+Non-Black / Non-Hispanic,Female,0
+Black,Female,0
+Hispanic,Female,0
+Hispanic,Male,0
+Hispanic,Male,0
+Hispanic,Male,0
+Hispanic,Male,0
+Hispanic,Male,0
+Hispanic,Female,0
+Hispanic,Male,0
+Non-Black / Non-Hispanic,Male,0
+Black,Female,0
+Black,Female,0
+Black,Female,0
+Hispanic,Male,0
+Black,Female,0
+Black,Female,0
+Black,Male,0
+Black,Female,0
+Non-Black / Non-Hispanic,Female,0
+Black,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Non-Black / Non-Hispanic,Female,0
+Black,Male,0
+Black,Female,0
+Hispanic,Male,0
+Non-Black / Non-Hispanic,Female,0
+Black,Male,0
+Black,Male,0
+Non-Black / Non-Hispanic,Male,0
+Black,Female,0
+Black,Female,0
+Black,Female,0
+Black,Female,0
+Black,Male,0
+Black,Male,0
+Black,Female,0
 Black,Male,0
 Black,Male,0
 Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,3
+Non-Black / Non-Hispanic,Female,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
@@ -8928,7 +8928,7 @@ Black,Male,0
 Black,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Female,0
-Hispanic,Male,9
+Hispanic,Male,1
 Non-Black / Non-Hispanic,Female,0
 Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
@@ -8940,7 +8940,7 @@ Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
 Non-Black / Non-Hispanic,Male,0
-Non-Black / Non-Hispanic,Female,2
+Non-Black / Non-Hispanic,Female,1
 Non-Black / Non-Hispanic,Female,0
 Non-Black / Non-Hispanic,Male,0
 Hispanic,Male,0
@@ -8956,7 +8956,7 @@ Non-Black / Non-Hispanic,Male,0
 Hispanic,Female,0
 Black,Female,0
 Black,Male,0
-Black,Male,12
+Black,Male,1
 Black,Female,0
 Black,Female,0
 Black,Male,0
