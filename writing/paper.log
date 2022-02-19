@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.11)  18 FEB 2022 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.11)  18 FEB 2022 22:45
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**paper.tex
-(./paper.tex
+**"/Users/arpanchatterji/Desktop/Causal Inference/causal-inference-2022/writing/paper.tex"
+(/Users/arpanchatterji/Desktop/Causal Inference/causal-inference-2022/writing/paper.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-05> (/Users/arpanchatterji/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -118,7 +119,7 @@ Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
 
 Enter file name: 
-! Emergency stop.
+/Users/arpanchatterji/Desktop/Causal Inference/causal-inference-2022/writing/paper.tex:11: Emergency stop.
 <read *> 
          
 l.11 \usepackage
@@ -127,11 +128,11 @@ l.11 \usepackage
 
  
 Here is how much of TeX's memory you used:
- 1577 strings out of 480238
- 20993 string characters out of 5894844
+ 1578 strings out of 480238
+ 21224 string characters out of 5894844
  299944 words of memory out of 5000000
  19588 multiletter control sequences out of 15000+600000
  469259 words of font info for 28 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 54i,0n,62p,221b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 54i,0n,62p,300b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+/Users/arpanchatterji/Desktop/Causal Inference/causal-inference-2022/writing/paper.tex:11:  ==> Fatal error occurred, no output PDF file produced!
